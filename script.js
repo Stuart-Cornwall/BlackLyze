@@ -8,7 +8,7 @@ document.getElementById('uploadForm').addEventListener('submit', async (e) => {
     const formData = new FormData();
     formData.append('image', file);
 
-    const response = await fetch('https://your-backend-function-url.com/analyze', {
+    const response = await fetch('https://euphonious-stardust-0e2d2a.netlify.app/', {
         method: 'POST',
         body: formData,
     });
